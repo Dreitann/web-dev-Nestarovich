@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Artsiom Nestarovich PW1</title>
+  <style>
+    header {
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+    nav {
+      background-color: #e0e0e0;
+      padding: 10px;
+    }
+    main {
+      background-color: #fff;
+      padding: 20px;
+    }
+    footer {
+      background-color: #e0e0e0;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><center>Artsiom Nestarovich PW1</center></h1>
+    </header>
+  <nav>
+    <ul>
+    <h1>Table of contests</h1>
+      <li><a href="#q1">Question 1</a></li>
+      <li><a href="#q2">Question 2</a></li>
+      <li><a href="#q3">Question 3</a></li>
+      <li><a href="#q4">Question 4</a></li>
+      <li><a href="#q5">Question 5</a></li>
+      <li><a href="#q6">Question 6</a></li>
+      </ul>
+  </nav>
+  <main>
+    <dl>
+      <dt id="q1"><b>When HTML5 has become a standard? What were the main reasons for developing
+        new standard?</b></dt>
+      <dd> <p>HTML5 became a standard in <b>2014</b>, when the World Wide Web Consortium (W3C) finalized the latest iteration of the HTML specification. The main reasons for developing a new standard were to address the limitations of previous HTML versions and to improve the overall web experience for users and developers. Some main reasons for developing HTML5 are:</p>
+        <p>1. <b>Better video support:</b> HTML5 introduced the &ltvideo&gt and &ltaudio&gt elements, allowing for native playback of multimedia content without relying on plugins like Flash.</p>
+        <p>2. <b>Cleaner code:</b> HTML5 introduced new semantic elements like &ltheader&gt, &ltfooter&gt, &ltnav&gt, and &ltarticle&gt, which provide more meaningful structure to web pages.</p>
+        <p>3. <b>Improved user experience:</b> HTML5 introduced features like the &ltcanvas&gt element for dynamic graphics and animations, as well as support for local storage and offline applications.</p>
+        <p>4. <b>Enhanced performance:</b> HTML5 enabled faster page loading times and more efficient use of resources, resulting in improved overall performance.</p>
+        <p>5. <b>Improved accessibility:</b> HTML5 introduced new accessibility features, making it easier for people with disabilities to use the web.</p>
+        <p>6. <b>Cross-platform compatibility:</b> HTML5 was designed to work across different devices and platforms, ensuring a consistent user experience regardless of the device being used.</p>
+        <p>7. <b>Developer-friendly:</b> HTML5 simplified web development by providing a more consistent and structured approach, making it easier for developers to create complex web applications.</p>
+        <p>So, HTML5 has become the standard for web development due to its numerous improvements and enhancements over previous HTML versions.</p>
+        </dd>
+      <dt id="q2"><b>What is a difference between W3C HTML5 and WHATWG HTML Living Standard?</b></dt>
+      <dd><p>The main differences between W3C HTML5 and WHATWG HTML Living Standard are:</p>
+        <p>1. <b>Goals and approach:</b> The W3C aimed to publish a "finished" version of HTML5, while the WHATWG focused on continuously evolving the HTML standard, hence the name "HTML Living Standard"
+        <p>2. <b>Authoring advice and requirements:</b> The W3C HTML specification includes authoring advice and requirements that differ markedly from the WHATWG HTML Living Standard
+        <p>3. <b>Versioning:</b> The W3C HTML5 specification is versioned, while the WHATWG HTML Living Standard is not. This means that the WHATWG specification is constantly updated and evolving, without specific version numbers
+        <p>4. <b>Collaboration:</b> In 2019, W3C and WHATWG agreed to work together on HTML and DOM, producing a Living Standard and Recommendation/Review Draft-snapshots
+        <p>The W3C HTML5 specification is a more traditional, versioned approach to standardizing HTML, while the WHATWG HTML Living Standard is a continuous, evolving standard that is updated more frequently.</dd>
+      <dt id="q3"><b>What is the minimal HTML page code?</b></dt>
+      <dd><p>
+        <pre>
+&lt!DOCTYPE html&gt
+&lthead&gt
+  &lttitle&gtMy Title&lt/title&gt
+&lt/head&gt
+&ltbody&gt
+  Hello World!
+&lt/body&gt
+&lt/html&gt</pre></dd>
+      <dt id="q4"><b>Comment on semantic and presentational markup. Why presentational markup is
+        considered deprecated now?</b></dt>
+      <dd>
+      <p><b>Semantic markup</b> is the use of HTML elements according to their intended purpose, which reinforces the meaning and structure of the content. On the other hand, presentational markup involves using HTML elements to control the appearance of the content, such as using &ltfont&gt or &ltbig&gt tags to change the font size.</p>
+
+      <p><b>Presentational markup</b> is considered deprecated now because it mixes content and presentation, making the code less maintainable and less accessible. By separating content and presentation, semantic markup allows for better accessibility, easier maintenance, and more consistent styling across different devices and browsers.</p>
+          
+      <p>For example, instead of using the&ltb&gt tag to make text bold, semantic markup would use the &ltstrong> tag to indicate strong importance. Similarly, instead of using the &ltfont&gt tag to change font size, semantic markup would use CSS to control the font size and other styling properties.</p>
+          
+      <p>In summary, semantic markup is preferred over presentational markup because it provides better structure, accessibility, and maintainability for web content.</p>
+      </dd>
+      <dt id="q5"><b>How you can check browser support for particular tag or attribute?</b></dt>
+      <dd><p>There is a possibility to check information in google, or use <b>special browser developer tools</b> that are included in browsers now and some other variants, but there is special tool for that, such as <b>caniuse</b>.</p></dd>
+      <dt id="q6"><b>What are the audio and video formats, officially supported by HTML standard? What
+        happens if you use other format?</b></dt>
+      <dd>
+        <p>There are three supported video formats: <b>MP4, WebM, and Ogg</b>.</p>
+        <p>There are three supported audio formats: <b>MP3, WAV, and OGG.</b></p>
+        <p>There could be problems in using other formats, there is a possibility that <b>it will work wrong or won't work at all</b></p>
+        <p>In case if you need other formats in your project you have to use a third-party video or audio player that supports these formats. However same there could be problems, using non-standard formats may result problems in compatibility and performance across different browsers and devices.</p></dd>
+      </dl>
+  </main>
+  <footer>
+  <center>
+    <h4>Video</h4>
+    <video width="320" height="240" controls>
+      <source src="3.mp4" type="video/mp4">
+      <source src="somevideo.ogg" type="video/ogg">
+      Your browser does not support the video element.
+    </video>
+    <section>
+    <h4>Audio</h4>
+    <audio controls>
+        <source src="someaudio.mp3" type="audio/mpeg">
+        <source src="someaudio.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+  </center>
+<P>Everything was clear and easy. To complete this task i had to use my previous knowledge from school and Cources and search some tags in the internet.</p> 
+<p>It was pretty interesting to find a way to put code and html tags as a text. </p>
+   <center> <img src="1.png" alt="School of Business of BSU"></center>
+</footer>
+</body>
+</html>
